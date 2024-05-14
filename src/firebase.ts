@@ -1,4 +1,6 @@
 import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+
 const firebaseConfig = {
   apiKey: "AIzaSyDDn1n1ghrn6ZJ7fG42phzNepwBoCUMj10",
   authDomain: "lwitter-reloaded.firebaseapp.com",
@@ -9,3 +11,5 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
+
+export const auth = getAuth(app);

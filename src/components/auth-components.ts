@@ -29,7 +29,7 @@ export const Input = styled.input`
     background-color: #1d9bf0;
     color: white;
     &:hover {
-      opeacity: 0.8;
+      opacity: 0.8;
     }
   }
 `;
